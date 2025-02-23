@@ -2,14 +2,19 @@
   "name": "react-practice",
   "version": "0.1.0",
   "private": true,
+  "start": "PORT=7000 react-scripts start",
+  "proxy": "http://localhost:$PORT",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
